@@ -1,0 +1,13 @@
+[
+    {
+        "arguments": [
+            "/usr/bin/x86_64-linux-gnu-g++-10",
+            "-c",
+            "--query-driver",
+            "1.cpp"
+        ],
+        "directory": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH1",
+        "file": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH1/1.cpp",
+        "output": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH1/1.o"
+    }
+]

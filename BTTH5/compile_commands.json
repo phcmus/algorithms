@@ -1,0 +1,50 @@
+[
+  {
+    "arguments": ["/usr/bin/x86_64-linux-gnu-g++-10", "-c", "1.cpp"],
+    "directory": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH5",
+    "file": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH5/1.cpp",
+    "output": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH5/1.o"
+  },
+  {
+    "arguments": ["/usr/bin/x86_64-linux-gnu-g++-10", "-c", "2.cpp"],
+    "directory": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH5",
+    "file": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH5/2.cpp",
+    "output": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH5/2.o"
+  },
+  {
+    "arguments": ["/usr/bin/x86_64-linux-gnu-g++-10", "-c", "3.cpp"],
+    "directory": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH5",
+    "file": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH5/3.cpp",
+    "output": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH5/3.o"
+  },
+  {
+    "arguments": ["/usr/bin/x86_64-linux-gnu-g++-10", "-c", "4.cpp"],
+    "directory": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH5",
+    "file": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH5/4.cpp",
+    "output": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH5/4.o"
+  },
+  {
+    "arguments": ["/usr/bin/x86_64-linux-gnu-g++-10", "-c", "5.cpp"],
+    "directory": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH5",
+    "file": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH5/5.cpp",
+    "output": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH5/5.o"
+  },
+  {
+    "arguments": ["/usr/bin/x86_64-linux-gnu-g++-10", "-c", "6.cpp"],
+    "directory": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH5",
+    "file": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH5/6.cpp",
+    "output": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH5/6.o"
+  },
+  {
+    "arguments": ["/usr/bin/x86_64-linux-gnu-g++-10", "-c", "7.cpp"],
+    "directory": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH5",
+    "file": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH5/7.cpp",
+    "output": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH5/7.o"
+  },
+  {
+    "arguments": ["/usr/bin/x86_64-linux-gnu-g++-10", "-c", "8.cpp"],
+    "directory": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH5",
+    "file": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH5/8.cpp",
+    "output": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH5/8.o"
+  }
+]

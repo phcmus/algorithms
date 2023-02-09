@@ -1,0 +1,140 @@
+#include <algorithm>
+#include <cmath>
+#include <cwchar>
+#include <fstream>
+#include <iostream>
+#include <string>
+#include <vector>
+
+using namespace std;
+
+string filename = "input_6.txt";
+int n = 0, k = 0;
+vector<int> A = vector<int>(0, 0);
+
+bool isReadFile(string filename) {
+    ifstream inputfile(filename);
+    bool res = false;
+
+    if (inputfile.is_open()) {
+        inputfile >> n;
+
+        for (int i = 0; i < n; i++) {
+            int temp = 0;
+            inputfile >> temp;
+            A.push_back(temp);
+        }
+
+        inputfile >> k;
+
+        return true;
+    } else {
+        cout << "Cannot open file!" << endl;
+    }
+
+    inputfile.close();
+    return res;
+}
+
+void printVector(vector<int> arr) {
+    for (int i = 0; i < arr.size(); i++) {
+        cout << arr[i] << " ";
+    }
+    cout << endl;
+}
+
+void printMatrix(vector<vector<int>> arr) {
+    for (int i = 0; i < arr.size(); i++) {
+        for (int j = 0; j < arr[i].size(); j++) {
+            cout << arr[i][j] << " ";
+        }
+        cout << endl;
+    }
+    cout << endl;
+}
+
+// find and print all subsets of a set of size n whose sum is k using dynamic
+// programming approach
+void SubsetSumsDP(vector<int> a, int n, int k) {
+    vector<vector<int>> dp = vector<vector<int>>(n + 1, vector<int>(k + 1, 0));
+    vector<vector<int>> path =
+        vector<vector<int>>(n + 1, vector<int>(k + 1, 0));
+
+    for (int i = 0; i <= n; i++) {
+        dp[i][0] = 1;
+    }
+
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= k; j++) {
+            if (j >= a[i - 1]) {
+                dp[i][j] = dp[i - 1][j] + dp[i - 1][j - a[i - 1]];
+                path[i][j] = 1;
+            } else {
+                dp[i][j] = dp[i - 1][j];
+            }
+        }
+    }
+
+    cout << "DP matrix: " << endl;
+    printMatrix(dp);
+
+    cout << "Path matrix: " << endl;
+    printMatrix(path);
+
+    cout << "Number of subsets: " << dp[n][k] << endl;
+
+    if (dp[n][k] > 0) {
+        cout << "Subsets: " << endl;
+
+        vector<int> subset = vector<int>(0, 0);
+        int i = n, j = k;
+
+        while (i > 0 && j > 0) {
+            if (path[i][j] == 1) {
+                subset.push_back(a[i - 1]);
+                j -= a[i - 1];
+            }
+
+            i--;
+        }
+
+        printVector(subset);
+
+        for (int i = 0; i < dp[n][k] - 1; i++) {
+            for (int j = 0; j < subset.size(); j++) {
+                if (subset[j] == a[0]) {
+                    subset[j] = a[1];
+                    break;
+                } else {
+                    subset[j] = a[0];
+                }
+            }
+
+            printVector(subset);
+
+            for (int j = 0; j < subset.size(); j++) {
+                if (subset[j] == a[1]) {
+                    subset[j] = a[2];
+                    break;
+                } else {
+                    subset[j] = a[1];
+                }
+            }
+        }
+    }
+}
+
+int main() {
+    bool read = isReadFile(filename);
+    if (!read) {
+        return 1;
+    }
+
+    // A.insert(A.begin(), -1);
+    printVector(A);
+    cout << "n = " << n << endl;
+    cout << "k = " << k << endl;
+    SubsetSumsDP(A, n, k);
+
+    return 0;
+}

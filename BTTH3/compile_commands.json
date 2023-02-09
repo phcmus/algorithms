@@ -1,0 +1,38 @@
+[
+  {
+    "arguments": ["/usr/bin/x86_64-linux-gnu-g++-10", "-c", "1.cpp"],
+    "directory": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH3",
+    "file": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH3/1.cpp",
+    "output": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH3/1.o"
+  },
+  {
+    "arguments": ["/usr/bin/x86_64-linux-gnu-g++-10", "-c", "2.cpp"],
+    "directory": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH3",
+    "file": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH3/2.cpp",
+    "output": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH3/2.o"
+  },
+  {
+    "arguments": ["/usr/bin/x86_64-linux-gnu-g++-10", "-c", "3.cpp"],
+    "directory": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH3",
+    "file": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH3/3.cpp",
+    "output": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH3/3.o"
+  },
+  {
+    "arguments": ["/usr/bin/x86_64-linux-gnu-g++-10", "-c", "4.cpp"],
+    "directory": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH3",
+    "file": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH3/4.cpp",
+    "output": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH3/4.o"
+  },
+  {
+    "arguments": ["/usr/bin/x86_64-linux-gnu-g++-10", "-c", "5.cpp"],
+    "directory": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH3",
+    "file": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH3/5.cpp",
+    "output": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH3/5.o"
+  },
+  {
+    "arguments": ["/usr/bin/x86_64-linux-gnu-g++-10", "-c", "6.cpp"],
+    "directory": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH3",
+    "file": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH3/6.cpp",
+    "output": "/media/phnaharris/DATA/PERSONAL/HCMUS/4th/S1/NMPTTKGT/BTTH/BTTH3/6.o"
+  }
+]
